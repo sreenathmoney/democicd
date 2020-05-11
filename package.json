@@ -1,0 +1,39 @@
+{
+  "name": "wellnecityappwebapi",
+  "version": "1.0.0",
+  "description": "Wellnecity Web API",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.5.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "is-base64": "^0.1.0",
+    "joi": "^14.3.1",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mysql": "2.16.0",
+    "nconf": "^0.10.0",
+    "njwt": "^1.0.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^1.18.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "pm2": "^4.2.1",
+    "swagger-ui-express": "3.0.10",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
